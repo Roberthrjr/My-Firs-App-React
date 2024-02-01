@@ -1,4 +1,5 @@
 import "./App.css";
+import Contador from "./components/Contador";
 
 // Cuando importamos algo de JS o JSX no es necesario agregarlo la extension
 import Mensaje from "./components/Mensaje";
@@ -26,6 +27,7 @@ function App() {
       <hr />
       {/* Props */}
       <Mensaje propsTitulo={titulo} numero="1" />
+      <Contador />
     </>
   )
 
