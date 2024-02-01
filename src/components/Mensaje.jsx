@@ -1,7 +1,8 @@
 // Ya no es necesario importar React en componentes
 // Solo cuando se utiliza React Native
 
-const Mensaje = () => {
+const Mensaje = (props) => {
+    console.log("PROPS: ", props);
     return (
         // Las llaves vacias se conocen como Fragment, funciona como contenedor que no se renderiza
         <>

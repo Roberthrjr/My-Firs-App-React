@@ -24,8 +24,8 @@ function App() {
       </section>
       {/* Toda etiqueta debe estar cerrada con su etiqueta correspondiente */}
       <hr />
-      <Mensaje></Mensaje>
-      <Mensaje />
+      {/* Props */}
+      <Mensaje propsTitulo={titulo} numero="1" />
     </>
   )
 
